@@ -1,0 +1,95 @@
+import svgPaths from "./svg-1171288yrb";
+
+function Navigation() {
+  return (
+    <div className="content-stretch flex gap-[21px] h-[19px] items-center shrink-0 sticky top-0" data-name="Navigation">
+      <div className="[text-shadow:rgba(0,0,0,0.25)_0px_4px_4px] flex flex-col font-['Inter:Light',_sans-serif] font-light justify-end leading-[0] not-italic relative shrink-0 text-[#f0f0f0] text-[16px] text-nowrap text-right">
+        <p className="leading-[normal] whitespace-pre">Contact</p>
+      </div>
+    </div>
+  );
+}
+
+function Header() {
+  return (
+    <div className="content-stretch flex items-start justify-between relative shrink-0 w-full" data-name="Header">
+      <div className="h-[29px] relative shrink-0 w-[100px]" data-name="Logo">
+        <div className="[text-shadow:rgba(0,0,0,0.35)_0px_4px_4px] absolute bottom-[-3.19px] flex flex-col font-['Inter:Black',_sans-serif] font-black justify-center leading-[0] left-0 not-italic right-0 text-[#f0f0f0] text-[24px] text-center top-0">
+          <p className="leading-[normal]">M.XYZ</p>
+        </div>
+      </div>
+      <Navigation />
+    </div>
+  );
+}
+
+function Frame4() {
+  return (
+    <div className="absolute content-stretch flex flex-col gap-[10px] items-start left-0 not-italic top-[200px]">
+      <p className="[text-shadow:rgba(72,72,72,0.15)_2px_4px_6px] bg-clip-text bg-gradient-to-b font-['Inter:Black',_sans-serif] font-black from-50% from-[#f0f0f0] leading-[normal] relative shrink-0 text-[40px] to-[#bebebe] to-[91.859%] w-[470.702px]" style={{ WebkitTextFillColor: "transparent" }}>
+        Predictive modeling for cities, industries, and communities
+      </p>
+      <div className="[text-shadow:rgba(0,0,0,0.25)_0px_4px_4px] font-['Inter:Light',_sans-serif] font-light leading-[normal] relative shrink-0 text-[#f0f0f0] text-[16px] w-[368.43px]">
+        <p className="mb-0">Climate change, migration, economic disruption and political events are reshaping every city.</p>
+        <p className="mb-0">&nbsp;</p>
+        <p>Meridian XYZ helps you see what’s coming next and act with confidence.</p>
+      </div>
+    </div>
+  );
+}
+
+function Frame3() {
+  return (
+    <div className="content-stretch flex items-end justify-between relative shrink-0 w-full">
+      <div className="flex flex-col font-['Inter:Light',_sans-serif] font-light justify-end leading-[0] not-italic relative shrink-0 text-[16px] text-[rgba(170,170,170,0.94)] text-nowrap">
+        <p className="leading-[normal] whitespace-pre">Guiding the future for humanity.</p>
+      </div>
+      <div className="bg-[#666666] box-border content-stretch flex flex-col h-[48px] items-end justify-end p-[8px] relative shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] shrink-0 w-[154px]" data-name="Button">
+        <p className="[text-shadow:rgba(0,0,0,0.25)_0px_4px_4px] font-['Inter:Light',_sans-serif] font-light leading-[normal] not-italic relative shrink-0 text-[#f0f0f0] text-[16px] text-nowrap whitespace-pre">Request Access</p>
+        <div className="h-0 relative shrink-0 w-[120px]">
+          <div className="absolute inset-[-2.89px_-3.33%_-10.89px_-3.75%]">
+            <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 129 14">
+              <g filter="url(#filter0_d_5_223)" id="Arrow 1">
+                <path d={svgPaths.p1ad58700} fill="var(--stroke-0, #F0F0F0)" />
+              </g>
+              <defs>
+                <filter colorInterpolationFilters="sRGB" filterUnits="userSpaceOnUse" height="13.7735" id="filter0_d_5_223" width="128.5" x="0.5" y="0.113249">
+                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix in="SourceAlpha" result="hardAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                  <feOffset dy="4" />
+                  <feGaussianBlur stdDeviation="2" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                  <feBlend in2="BackgroundImageFix" mode="normal" result="effect1_dropShadow_5_223" />
+                  <feBlend in="SourceGraphic" in2="effect1_dropShadow_5_223" mode="normal" result="shape" />
+                </filter>
+              </defs>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function Frame2() {
+  return (
+    <div className="basis-0 content-stretch flex flex-col grow items-center justify-between min-h-px min-w-px relative shrink-0 w-full">
+      <Header />
+      <Frame4 />
+      <Frame3 />
+    </div>
+  );
+}
+
+export default function HeroSection() {
+  return (
+    <div className="bg-[#303030] relative size-full" data-name="Hero Section">
+      <div className="flex flex-col items-end size-full">
+        <div className="box-border content-stretch flex flex-col gap-[56px] items-end p-[50px] relative size-full">
+          <Frame2 />
+        </div>
+      </div>
+    </div>
+  );
+}
