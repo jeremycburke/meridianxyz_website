@@ -5,7 +5,7 @@ A modern landing page for Meridian XYZ built with React, TypeScript, and Tailwin
 ## Features
 
 - 🎨 Modern, clean design matching Figma specifications
-- 📧 Email collection via modal popup
+- 📧 Comprehensive contact form via modal popup (name, email, phone, message)
 - 🔗 Web3Forms integration for form submissions
 - 📱 Fully responsive design (mobile, tablet, desktop)
 - 🚀 Deployed to GitHub Pages

@@ -27,11 +27,16 @@ npm run dev
 
 Your site will be running at `http://localhost:5173`
 
-## Test the Email Form
+## Test the Contact Form
 
 1. Click the "Request Access" button
-2. Enter an email address
-3. Click Submit
+2. Fill out the form fields:
+   - First Name
+   - Last Name
+   - Email Address
+   - Phone Number
+   - Your Message
+3. Click "Send Message"
 4. You should receive the submission in your Web3Forms dashboard
 
 ## Deploy to GitHub Pages

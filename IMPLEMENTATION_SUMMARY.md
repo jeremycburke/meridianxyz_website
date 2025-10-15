@@ -42,23 +42,29 @@ meridianxyz_website/
 - ✅ Responsive button with hover effect
 - ✅ Arrow SVG graphic with drop shadow
 
-### 2. Email Collection Modal
+### 2. Contact Form Modal
 
 - ✅ Dark theme matching main design (#303030)
-- ✅ Email input with validation
+- ✅ Comprehensive form fields:
+  - First Name and Last Name
+  - Email and Phone Number
+  - Message textarea
+- ✅ Client-side validation (all fields required)
 - ✅ Loading state during submission
 - ✅ Success confirmation message
 - ✅ Error handling with user feedback
 - ✅ Close button (X) in top right
 - ✅ Click outside to close
 - ✅ Smooth animations
+- ✅ Responsive two-column layout on desktop
 
 ### 3. Web3Forms Integration
 
-- ✅ Form submission handler
-- ✅ Client-side email validation
+- ✅ Form submission handler with full contact data
+- ✅ Client-side validation for all fields
 - ✅ Success/error response handling
 - ✅ User-friendly confirmation
+- ✅ Spam prevention with botcheck field
 
 ### 4. GitHub Pages Deployment
 
