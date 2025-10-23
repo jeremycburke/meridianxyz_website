@@ -50,7 +50,7 @@ function Frame3({ onRequestAccess }: Frame3Props) {
   return (
     <div className="content-stretch flex flex-col md:flex-row items-end justify-between relative shrink-0 w-full h-[107px] md:h-auto">
       <div className="flex flex-col font-light justify-end leading-[0] not-italic relative shrink-0 text-[16px] text-[rgba(170,170,170,0.94)] text-nowrap">
-        <p className="leading-[normal] whitespace-pre">Guiding the future for humanity.</p>
+        <p className="leading-[normal] whitespace-pre">Plan for the future with confidence.</p>
       </div>
       <button 
         onClick={onRequestAccess}
